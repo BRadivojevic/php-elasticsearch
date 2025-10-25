@@ -1,0 +1,25 @@
+{
+  "name": "BRadivojevic/es7-reindex-workers",
+  "description": "Elasticsearch 7.17.13 reindex/insert workers with MSSQL batching, background jobs, and acckey idempotency",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Boško Radivojević",
+      "homepage": "https://github.com/BRadivojevic"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "ext-json": "*",
+    "ext-sqlsrv": "*",
+    "elasticsearch/elasticsearch": "^7.17",
+    "monolog/monolog": "^3.7",
+    "vlucas/phpdotenv": "^5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
